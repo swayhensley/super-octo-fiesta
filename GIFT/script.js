@@ -70,7 +70,7 @@ function showRoses() {
 function showGift2() {
     giftContent.innerHTML = `
         <div class="fade-in">
-            <h3>Your gift is a flower bouquet and a Date</h3>
+            <h3>Your gift is a Brand new airmax and a Date</h3>
             <img src="roses.gif" width="250" style="border-radius:15px;">
             <p>I will always love you no matter what!</p>
             <button class="pink-btn" onclick="showLetter()">Next</button>
@@ -81,7 +81,7 @@ function showGift2() {
 function showGift3() {
     giftContent.innerHTML = `
         <div class="fade-in">
-            <h3>Your gift is a flower bouquet and a Date</h3>
+            <h3>Your gift is a IPHONE 17 promax and a Date</h3>
             <img src="roses.gif" width="250" style="border-radius:15px;">
             <p>I will always love you no matter what!</p>
             <button class="pink-btn" onclick="showLetter()">Next</button>
