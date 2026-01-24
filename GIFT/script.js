@@ -94,7 +94,7 @@ function showLetter() {
         <div class="fade-in">
             <h3>Words from my Heart</h3>
             <div class="letter-box">
-                <p>I am so lucky to have you Anita. I love you wholeheartedly!</p>
+                <p>I am so lucky to have you Mpoa. I love you wholeheartedly!</p>
                 <p>You mean everything to me. Happy Valentine's Day!</p>
             </div>
             <button class="click-me-btn" onclick="showSong()">click me!</button>
