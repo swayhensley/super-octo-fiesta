@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hearts-container" id="hearts-container"></div>
+
+    <div class="calendar">
+        <div class="calendar-header">FEB</div>
+        <div class="calendar-body">14</div>
+    </div>
+
+    <div id="question-section" class="container">
+        <img id="main-image" src="giphy.gif" alt="Cute Cat">
+        <h1 id="main-text">Will you be my Valentine?</h1>
+        <div id="button-container" class="buttons">
+            <button id="yes-button" onclick="goToGifts()">YES OF COURSE</button>
+            <button id="no-button" onclick="handleNo()">NO THANK YOU</button>
+        </div>
+    </div>
+
+    <div id="gift-section" class="container hidden">
+        <h1>Yay, you said yes! ❤️</h1>
+        <p>Pick a gift for being so cute:</p>
+        <div class="gift-grid">
+            <button class="gift-box" onclick="revealGift(1)">Gift 1</button>
+            <button class="gift-box" onclick="revealGift(2)">Gift 2</button>
+            <button class="gift-box" onclick="revealGift(3)">Gift 3</button>
+        </div>
+        <div id="reveal-area" class="hidden">
+            <div id="gift-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
