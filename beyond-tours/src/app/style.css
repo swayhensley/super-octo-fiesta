@@ -1,0 +1,223 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Restore button padding that was previously from global padding */
+button,
+.btn-primary,
+.btn-secondary,
+.btn-nav,
+[class*="btn"] {
+    padding: 12px 28px;
+}
+
+/* Restore form element padding */
+input,
+textarea,
+select {
+    padding: 10px 15px;
+}
+
+/* Section spacing */
+section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e67e22;
+    /* Safari Orange */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e67e22;
+}
+
+.btn-nav {
+    background: #e67e22;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    color: white;
+    padding: 0 8%;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 24px;
+    line-height: 1.1;
+    max-width: 800px;
+    letter-spacing: -0.02em;
+}
+
+.hero p {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+    max-width: 650px;
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary {
+    background: #e67e22;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background: white;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Destinations Grid */
+.destinations {
+    padding: 80px 8%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Specific Destination Images */
+.nairobi {
+    background-image: url('https://images.unsplash.com/photo-1580193813605-a5c78b4ee01a?auto=format&fit=crop&w=500');
+}
+
+.mara {
+    background-image: url('https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=500');
+}
+
+.naivasha {
+    background-image: url('/images/naivasha-hippo.jpg');
+}
+
+.mombasa {
+    background-image: url('https://unsplash.com/photos/two-brown-camels-walking-on-beach-at-daytime-EtH1GE9qaDg');
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h3 {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 20px 8% 20px;
+    margin-top: 20px;
+    border-top: 4px solid #e67e22;
+    text-align: center;
+    margin: 40px 0 0 0;
+    padding: 20px 0 20px 0;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    color: #e67e22;
+    margin-bottom: 20px;
+}
+
+.socials {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #888;
+}
