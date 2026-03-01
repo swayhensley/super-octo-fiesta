@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "727418600948",
+    "project_id": "realtor-e3c59",
+    "storage_bucket": "realtor-e3c59.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727418600948:android:1e45ab77c45f8e98ba4da1",
+        "android_client_info": {
+          "package_name": "com.hensley.propmanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9yNQMp6V9vVvHDiiW1iLIKgWjtpPt2q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
